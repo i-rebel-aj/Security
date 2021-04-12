@@ -1,0 +1,1 @@
+const fs = require('fs'); const content = 'rm ./test.txt' ; fs.writeFile('../SQLInjection/infected.sh', content, err => { if (err) { console.error(err) } })
